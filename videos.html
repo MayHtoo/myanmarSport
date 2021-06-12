@@ -54,49 +54,41 @@
 <body class="layout-menu" cz-shortcut-listen="true">
 
     <div class="wrapper">
-        <div class="sidebar sidebar-right py-4">
-
-            <img class="d-table m-auto" src="images/logo_l.png" height="50px">
-            <nav class="navbar mt-4">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="sidebar-close" data-savepage-href="/news" href="news.html">
-                            <div class="item-title">
-                                <svg class="icon icon-news mr-3">
-                                    <use xlink:href="/assets/images/icons.svg#icon-news"></use>
-                                </svg>
-                                သတင်းများ
-                            </div>
-                        </a>
-                        <a class="sidebar-close" data-savepage-href="/videos" href="videos.html">
-                            <div class="item-title">
-                                <svg class="icon icon-videos mr-3">
-                                    <use xlink:href="/assets/images/icons.svg#icon-videos"></use>
-                                </svg>
-                                ဗီဒီယို
-                            </div>
-                        </a>
-
-                        <a class="sidebar-close" data-savepage-href="/favorites" href="favorites.html">
-                            <div class="item-title">
-                                <svg class="icon icon-favorites mr-3">
-                                    <use xlink:href="/assets/images/icons.svg#icon-favorites"></use>
-                                </svg>
-                                အနှစ်သက်ဆုံးများ
-                            </div>
-                        </a>
-                        <a class="sidebar-close" data-savepage-href="/faq" href="faq.html">
-                            <div class="item-title">
-                                <svg class="icon icon-favorites mr-3">
-                                    <use xlink:href="/assets/images/faq.svg#katman_1"></use>
-                                </svg>
-                                မေးခွန်း နှင့် အဖြေများ
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        
+    <div class="sidebar sidebar-right py-4">
+        <img class="d-table m-auto" src="images/logo_l.png" height="50px">
+        <nav class="navbar mt-4">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="sidebar-close" data-savepage-href="/news" href="#">
+                <div class="item-title">
+                  <img class="item-icon" src="images/icons/ico-11.png" alt="">
+                  သတင်းများ
+                </div>
+              </a>
+              <a class="sidebar-close" data-savepage-href="/videos" href="videos.html">
+                <div class="item-title">
+                  <img class="item-icon" src="images/icons/ico-12.png" alt="">
+                  ဗီဒီယို
+                </div>
+              </a>
+  
+              <a class="sidebar-close" data-savepage-href="/favorites" href="favorites.html">
+                <div class="item-title">
+                  <img class="item-icon" src="images/icons/ico-05.png" alt="">
+                  အနှစ်သက်ဆုံးများ
+                </div>
+              </a>
+              <a class="sidebar-close" data-savepage-href="/faq" href="faq.html">
+                <div class="item-title">
+                  <img class="item-icon" src="images/icons/ico-07.png" alt="">
+                  မေးခွန်း နှင့် အဖြေများ
+                </div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
         <div class="sidebar sidebar-left py-4" data-title="သတင်းအချက်အလက်">
             <div class="w-100">
                 <div class="container-fluid w-100"><i class="fas fa-info-circle fa-4x m-auto d-table"></i>
@@ -129,39 +121,33 @@
 
             <div class="page-content triangle-background">
                 <div class="home-swiper home-tags">
-                    <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
-                        <div class="swiper-wrapper text-center">
-                            <div class="swiper-slide swiper-slide-active"><a class="home-tags-item  active " href="#">
-                                <svg class="icon icon-football icon-sm mr-2">
-                                  <use xlink:href="/assets/images/icons.svg?v=1#icon-football"></use>
-                                </svg><span>ဘောလုံး</span></a></div>
-                            <div class="swiper-slide swiper-slide-next"><a class="home-tags-item " href="#">
-                                <svg class="icon icon-golf icon-sm mr-2">
-                                  <use xlink:href="/assets/images/icons.svg?v=1#icon-golf"></use>
-                                </svg><span>ဂေါက်သီး</span></a></div>
-                            <div class="swiper-slide"><a class="home-tags-item " href="#">
-                                <svg class="icon icon-boxing icon-sm mr-2">
-                                  <use xlink:href="/assets/images/icons.svg?v=1#icon-boxing"></use>
-                                </svg><span>လက်ဝှေ့</span></a></div>
-                            <div class="swiper-slide"><a class="home-tags-item " href="#">
-                                <svg class="icon icon-chinlone icon-sm mr-2">
-                                  <use xlink:href="/assets/images/icons.svg?v=1#icon-chinlone"></use>
-                                </svg><span>ခြင်းလုံး</span></a></div>
-                            <div class="swiper-slide"><a class="home-tags-item " href="#">
-                                <svg class="icon icon-volleyball icon-sm mr-2">
-                                  <use xlink:href="/assets/images/icons.svg?v=1#icon-volleyball"></use>
-                                </svg><span>ပိုက်ကျော်ခြင်း</span></a></div>
-                            <div class="swiper-slide"><a class="home-tags-item " href="#">
-                                <svg class="icon icon-letwei icon-sm mr-2">
-                                  <use xlink:href="/assets/images/icons.svg?v=1#icon-letwei"></use>
-                                </svg><span>အခြား</span></a></div>
-                          </div>
-                        <div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button"
-                            aria-label="Previous slide" aria-disabled="true"><i class="fas fa-chevron-left"></i></div>
-                        <div class="swiper-button-next swiper-button-disabled" tabindex="0" role="button"
-                            aria-label="Next slide" aria-disabled="true"><i class="fas fa-chevron-right"></i></div>
-                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                  <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+                    <div class="swiper-wrapper text-center">
+                      <div class="swiper-slide"><a class="home-tags-item active" href="#">
+                          <img class="header-menu-icon" src="images/icons/ico-13.png" alt="">
+                          <span>ဘောလုံး</span></a></div>
+                      <div class="swiper-slide"><a class="home-tags-item" href="#">
+                        <img class="header-menu-icon" src="images/icons/ico-08.png" alt="">  
+                        <span>ဂေါက်သီး</span></a></div>
+                      <div class="swiper-slide"><a class="home-tags-item " href="#">
+                        <img class="header-menu-icon" src="images/icons/ico-02.png" alt="">
+                        <span>လက်ဝှေ့</span></a></div>
+                      <div class="swiper-slide"><a class="home-tags-item " href="#">
+                        <img class="header-menu-icon" src="images/icons/ico-09.png" alt="">
+                        <span>ခြင်းလုံး</span></a></div>
+                      <div class="swiper-slide"><a class="home-tags-item " href="#">
+                        <img class="header-menu-icon" src="images/icons/ico-03.png" alt="">
+                        <span>ပိုက်ကျော်ခြင်း</span></a></div>
+                      <div class="swiper-slide"><a class="home-tags-item " href="#">
+                        <img class="header-menu-icon" src="images/icons/ico-04.png" alt="">
+                        <span>အခြား</span></a></div>
                     </div>
+                    <div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button"
+                      aria-label="Previous slide" aria-disabled="true"><i class="fas fa-chevron-left"></i></div>
+                    <div class="swiper-button-next swiper-button-disabled" tabindex="0" role="button" aria-label="Next slide"
+                      aria-disabled="true"><i class="fas fa-chevron-right"></i></div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                  </div>
                 </div>
             </div>
             <div class="py-2">
@@ -195,22 +181,16 @@
 
             <nav class="bottom-menu">
                 <a class="bottom-menu-item   " data-savepage-href="/news" href="news.html">
-                    <svg class="icon icon-news">
-                        <use xlink:href="/assets/images/icons.svg#icon-news"></use>
-                    </svg>
+                    <img class="item-icon" src="images/icons/ico-11.png" alt="">
                     <small>သတင်းများ</small>
                 </a>
                 <a class="bottom-menu-item active" data-savepage-href="/videos" href="videos.html">
-                    <svg class="icon icon-videos">
-                        <use xlink:href="/assets/images/icons.svg#icon-videos"></use>
-                    </svg>
+                    <img class="item-icon" src="images/icons/ico-12.png" alt="">
                     <small>ဗီဒီယို</small>
                 </a>
 
                 <a class="bottom-menu-item" data-savepage-href="/favorites" href="favorites.html">
-                    <svg class="icon icon-favorites">
-                        <use xlink:href="/assets/images/icons.svg#icon-favorites"></use>
-                    </svg>
+                    <img class="item-icon" src="images/icons/ico-05.png" alt="">
                     <small id="navbar-favorites">အနှစ်သက်ဆုံးများ</small>
                 </a>
             </nav>

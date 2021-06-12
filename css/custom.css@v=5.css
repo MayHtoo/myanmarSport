@@ -17,3 +17,22 @@
 .favorite-btn-profile > i {
     font-size: 24px;
 }
+
+.item-title .item-icon, .bottom-menu-item .item-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .bottom-menu .active .item-icon, .sidebar-close:hover .item-icon {
+    filter: brightness(0) invert(1);
+  }
+
+  .home-tags-item .header-menu-icon {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(100%);
+  }
+
+  .swiper-slide .active .header-menu-icon, .swiper-slide:hover .header-menu-icon {
+    filter: grayscale(0%);
+  }
